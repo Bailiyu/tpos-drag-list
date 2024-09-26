@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B762B42BD67CC700923A8F /* TmmPluginProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B762B22BD67CC700923A8F /* TmmPluginProxy.h */; };
+		00B762B52BD67CC700923A8F /* TmmPluginProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B762B32BD67CC700923A8F /* TmmPluginProxy.m */; };
+		00B762B82BD67CED00923A8F /* TmmVideoEditorComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 00B762B62BD67CED00923A8F /* TmmVideoEditorComponent.h */; };
+		00B762B92BD67CED00923A8F /* TmmVideoEditorComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B762B72BD67CED00923A8F /* TmmVideoEditorComponent.m */; };
+		00B762C12BD67D5300923A8F /* ICGThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B762BD2BD67D5300923A8F /* ICGThumbView.m */; };
+		00B762C22BD67D5300923A8F /* ICGRulerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B762C02BD67D5300923A8F /* ICGRulerView.m */; };
+		00B762C32BD67D5300923A8F /* ICGVideoTrimmerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00B762BE2BD67D5300923A8F /* ICGVideoTrimmerView.m */; };
+		00B762C62BD67F7400923A8F /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B762C52BD67F7400923A8F /* GLKit.framework */; };
+		00B762C82BD67F7D00923A8F /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B762C72BD67F7D00923A8F /* AssetsLibrary.framework */; };
+		00B762CA2BD67F8400923A8F /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B762C92BD67F8400923A8F /* Photos.framework */; };
+		00B762CC2BD67F8D00923A8F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B762CB2BD67F8D00923A8F /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00B7629F2BD66F5600923A8F /* TmmVideoEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TmmVideoEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00B762B22BD67CC700923A8F /* TmmPluginProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TmmPluginProxy.h; sourceTree = "<group>"; };
+		00B762B32BD67CC700923A8F /* TmmPluginProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TmmPluginProxy.m; sourceTree = "<group>"; };
+		00B762B62BD67CED00923A8F /* TmmVideoEditorComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TmmVideoEditorComponent.h; sourceTree = "<group>"; };
+		00B762B72BD67CED00923A8F /* TmmVideoEditorComponent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TmmVideoEditorComponent.m; sourceTree = "<group>"; };
+		00B762BA2BD67D5300923A8F /* ICGRulerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICGRulerView.h; sourceTree = "<group>"; };
+		00B762BB2BD67D5300923A8F /* ICGVideoTrimmer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICGVideoTrimmer.h; sourceTree = "<group>"; };
+		00B762BC2BD67D5300923A8F /* ICGThumbView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICGThumbView.h; sourceTree = "<group>"; };
+		00B762BD2BD67D5300923A8F /* ICGThumbView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICGThumbView.m; sourceTree = "<group>"; };
+		00B762BE2BD67D5300923A8F /* ICGVideoTrimmerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICGVideoTrimmerView.m; sourceTree = "<group>"; };
+		00B762BF2BD67D5300923A8F /* ICGVideoTrimmerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ICGVideoTrimmerView.h; sourceTree = "<group>"; };
+		00B762C02BD67D5300923A8F /* ICGRulerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICGRulerView.m; sourceTree = "<group>"; };
+		00B762C52BD67F7400923A8F /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		00B762C72BD67F7D00923A8F /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		00B762C92BD67F8400923A8F /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		00B762CB2BD67F8D00923A8F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00B7629C2BD66F5600923A8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B762CC2BD67F8D00923A8F /* AVFoundation.framework in Frameworks */,
+				00B762CA2BD67F8400923A8F /* Photos.framework in Frameworks */,
+				00B762C82BD67F7D00923A8F /* AssetsLibrary.framework in Frameworks */,
+				00B762C62BD67F7400923A8F /* GLKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00B762952BD66F5600923A8F = {
+			isa = PBXGroup;
+			children = (
+				00B762A12BD66F5600923A8F /* TmmVideoEditor */,
+				00B762A02BD66F5600923A8F /* Products */,
+				00B762C42BD67F7400923A8F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00B762A02BD66F5600923A8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00B7629F2BD66F5600923A8F /* TmmVideoEditor.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00B762A12BD66F5600923A8F /* TmmVideoEditor */ = {
+			isa = PBXGroup;
+			children = (
+				00B762B22BD67CC700923A8F /* TmmPluginProxy.h */,
+				00B762B32BD67CC700923A8F /* TmmPluginProxy.m */,
+				00B762B62BD67CED00923A8F /* TmmVideoEditorComponent.h */,
+				00B762B72BD67CED00923A8F /* TmmVideoEditorComponent.m */,
+				00B762BA2BD67D5300923A8F /* ICGRulerView.h */,
+				00B762C02BD67D5300923A8F /* ICGRulerView.m */,
+				00B762BC2BD67D5300923A8F /* ICGThumbView.h */,
+				00B762BD2BD67D5300923A8F /* ICGThumbView.m */,
+				00B762BB2BD67D5300923A8F /* ICGVideoTrimmer.h */,
+				00B762BF2BD67D5300923A8F /* ICGVideoTrimmerView.h */,
+				00B762BE2BD67D5300923A8F /* ICGVideoTrimmerView.m */,
+			);
+			path = TmmVideoEditor;
+			sourceTree = "<group>";
+		};
+		00B762C42BD67F7400923A8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00B762CB2BD67F8D00923A8F /* AVFoundation.framework */,
+				00B762C92BD67F8400923A8F /* Photos.framework */,
+				00B762C72BD67F7D00923A8F /* AssetsLibrary.framework */,
+				00B762C52BD67F7400923A8F /* GLKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00B7629A2BD66F5600923A8F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B762B82BD67CED00923A8F /* TmmVideoEditorComponent.h in Headers */,
+				00B762B42BD67CC700923A8F /* TmmPluginProxy.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00B7629E2BD66F5600923A8F /* TmmVideoEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00B762A62BD66F5600923A8F /* Build configuration list for PBXNativeTarget "TmmVideoEditor" */;
+			buildPhases = (
+				00B7629A2BD66F5600923A8F /* Headers */,
+				00B7629B2BD66F5600923A8F /* Sources */,
+				00B7629C2BD66F5600923A8F /* Frameworks */,
+				00B7629D2BD66F5600923A8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TmmVideoEditor;
+			productName = TmmVideoEditor;
+			productReference = 00B7629F2BD66F5600923A8F /* TmmVideoEditor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00B762962BD66F5600923A8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					00B7629E2BD66F5600923A8F = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 00B762992BD66F5600923A8F /* Build configuration list for PBXProject "TmmVideoEditor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00B762952BD66F5600923A8F;
+			productRefGroup = 00B762A02BD66F5600923A8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00B7629E2BD66F5600923A8F /* TmmVideoEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00B7629D2BD66F5600923A8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00B7629B2BD66F5600923A8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00B762B52BD67CC700923A8F /* TmmPluginProxy.m in Sources */,
+				00B762C22BD67D5300923A8F /* ICGRulerView.m in Sources */,
+				00B762B92BD67CED00923A8F /* TmmVideoEditorComponent.m in Sources */,
+				00B762C32BD67D5300923A8F /* ICGVideoTrimmerView.m in Sources */,
+				00B762C12BD67D5300923A8F /* ICGThumbView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00B762A42BD66F5600923A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		00B762A52BD66F5600923A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		00B762A72BD66F5600923A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4KCTX46F5D;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../SDK/inc\"/**";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = ShanghaiTuanmanman.TmmVideoEditor;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00B762A82BD66F5600923A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 4KCTX46F5D;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../SDK/inc\"/**";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = ShanghaiTuanmanman.TmmVideoEditor;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00B762992BD66F5600923A8F /* Build configuration list for PBXProject "TmmVideoEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B762A42BD66F5600923A8F /* Debug */,
+				00B762A52BD66F5600923A8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00B762A62BD66F5600923A8F /* Build configuration list for PBXNativeTarget "TmmVideoEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00B762A72BD66F5600923A8F /* Debug */,
+				00B762A82BD66F5600923A8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00B762962BD66F5600923A8F /* Project object */;
+}

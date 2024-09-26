@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HBuilder debug="true" syncDebug="true" version="1.9.9.81326">
+    <!--应用节点-->
+    <apps>
+        <app appid="__UNI__977C1D7" appver="1.0.0"/>
+    </apps>
+</HBuilder>
