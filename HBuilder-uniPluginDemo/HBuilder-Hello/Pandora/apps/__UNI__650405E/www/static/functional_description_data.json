@@ -1,0 +1,450 @@
+[
+  {
+    "title": {
+      "text": "",
+      "type": "space"
+    },
+    "standard": {
+      "text": "",
+      "type": "space"
+    },
+    "premium": {
+      "text": "",
+      "type": "space"
+    }
+  },
+  {
+    "title": {
+      "text": "专属",
+      "type": "title"
+    },
+    "standard": {
+      "text": "",
+      "type": "space"
+    },
+    "premium": {
+      "text": "",
+      "type": "space"
+    }
+  },
+  {
+    "title": {
+      "text": "绑定专属小程序",
+      "type": "subtitle"
+    },
+    "standard": {
+      "text": "",
+      "type": "yes"
+    },
+    "premium": {
+      "text": "",
+      "type": "yes"
+    }
+  },
+  {
+    "title": {
+      "text": "绑定独立域名",
+      "type": "subtitle"
+    },
+    "standard": {
+      "text": "",
+      "type": "no"
+    },
+    "premium": {
+      "text": "",
+      "type": "yes"
+    }
+  },
+  {
+    "title": {
+      "text": "",
+      "type": "space"
+    },
+    "standard": {
+      "text": "",
+      "type": "space"
+    },
+    "premium": {
+      "text": "",
+      "type": "space"
+    }
+  },
+  {
+    "title": {
+      "text": "分享",
+      "type": "title"
+    },
+    "standard": {
+      "text": "",
+      "type": "space"
+    },
+    "premium": {
+      "text": "",
+      "type": "space"
+    }
+  },
+  {
+    "title": {
+      "text": "小程序分享",
+      "type": "subtitle"
+    },
+    "standard": {
+      "text": "",
+      "type": "yes"
+    },
+    "premium": {
+      "text": "",
+      "type": "yes"
+    }
+  },
+  {
+    "title": {
+      "text": "网址分享",
+      "type": "subtitle"
+    },
+    "standard": {
+      "text": "",
+      "type": "yes"
+    },
+    "premium": {
+      "text": "",
+      "type": "yes"
+    }
+  },
+  {
+    "title": {
+      "text": "二维码分享",
+      "type": "subtitle"
+    },
+    "standard": {
+      "text": "",
+      "type": "yes"
+    },
+    "premium": {
+      "text": "",
+      "type": "yes"
+    }
+  },
+  {
+    "title": {
+      "text": "面对面分享",
+      "type": "subtitle"
+    },
+    "standard": {
+      "text": "",
+      "type": "yes"
+    },
+    "premium": {
+      "text": "",
+      "type": "yes"
+    }
+  },
+  {
+    "title": {
+      "text": "",
+      "type": "space"
+    },
+    "standard": {
+      "text": "",
+      "type": "space"
+    },
+    "premium": {
+      "text": "",
+      "type": "space"
+    }
+  },
+  {
+    "title": {
+      "text": "支付",
+      "type": "title"
+    },
+    "standard": {
+      "text": "",
+      "type": "space"
+    },
+    "premium": {
+      "text": "",
+      "type": "space"
+    }
+  },
+  {
+    "title": {
+      "text": "微信支付手续费",
+      "type": "subtitle"
+    },
+    "standard": {
+      "text": "0.5%",
+      "type": "text"
+    },
+    "premium": {
+      "text": "0.5%",
+      "type": "text"
+    }
+  },
+  {
+    "title": {
+      "text": "资金到账方式",
+      "type": "subtitle"
+    },
+    "standard": {
+      "text": "买家确认收货",
+      "type": "text"
+    },
+    "premium": {
+      "text": "买家付款后",
+      "type": "text"
+    }
+  },
+  {
+    "title": {
+      "text": "",
+      "type": "space"
+    },
+    "standard": {
+      "text": "",
+      "type": "space"
+    },
+    "premium": {
+      "text": "",
+      "type": "space"
+    }
+  },
+  {
+    "title": {
+      "text": "发布",
+      "type": "title"
+    },
+    "standard": {
+      "text": "",
+      "type": "space"
+    },
+    "premium": {
+      "text": "",
+      "type": "space"
+    }
+  },
+  {
+    "title": {
+      "text": "发布商品",
+      "type": "subtitle"
+    },
+    "standard": {
+      "text": "",
+      "type": "yes"
+    },
+    "premium": {
+      "text": "",
+      "type": "yes"
+    }
+  },
+  {
+    "title": {
+      "text": "开团",
+      "type": "subtitle"
+    },
+    "standard": {
+      "text": "",
+      "type": "yes"
+    },
+    "premium": {
+      "text": "",
+      "type": "yes"
+    }
+  },
+  {
+    "title": {
+      "text": "核销商品/团",
+      "type": "subtitle"
+    },
+    "standard": {
+      "text": "",
+      "type": "no"
+    },
+    "premium": {
+      "text": "",
+      "type": "yes"
+    }
+  },
+  {
+    "title": {
+      "text": "",
+      "type": "space"
+    },
+    "standard": {
+      "text": "",
+      "type": "space"
+    },
+    "premium": {
+      "text": "",
+      "type": "space"
+    }
+  },
+  {
+    "title": {
+      "text": "管理",
+      "type": "title"
+    },
+    "standard": {
+      "text": "",
+      "type": "space"
+    },
+    "premium": {
+      "text": "",
+      "type": "space"
+    }
+  },
+  {
+    "title": {
+      "text": "客服坐席",
+      "type": "subtitle"
+    },
+    "standard": {
+      "text": "1",
+      "type": "yes"
+    },
+    "premium": {
+      "text": "不限",
+      "type": "yes"
+    }
+  },
+  {
+    "title": {
+      "text": "员工管理",
+      "type": "subtitle"
+    },
+    "standard": {
+      "text": "",
+      "type": "yes"
+    },
+    "premium": {
+      "text": "",
+      "type": "yes"
+    }
+  },
+  {
+    "title": {
+      "text": "",
+      "type": "space"
+    },
+    "standard": {
+      "text": "",
+      "type": "space"
+    },
+    "premium": {
+      "text": "",
+      "type": "space"
+    }
+  },
+  {
+    "title": {
+      "text": "营销",
+      "type": "title"
+    },
+    "standard": {
+      "text": "",
+      "type": "space"
+    },
+    "premium": {
+      "text": "",
+      "type": "space"
+    }
+  },
+  {
+    "title": {
+      "text": "满减",
+      "type": "subtitle"
+    },
+    "standard": {
+      "text": "",
+      "type": "yes"
+    },
+    "premium": {
+      "text": "",
+      "type": "yes"
+    }
+  },
+  {
+    "title": {
+      "text": "优惠券",
+      "type": "subtitle"
+    },
+    "standard": {
+      "text": "",
+      "type": "yes"
+    },
+    "premium": {
+      "text": "",
+      "type": "yes"
+    }
+  },
+  {
+    "title": {
+      "text": "预储值",
+      "type": "subtitle"
+    },
+    "standard": {
+      "text": "",
+      "type": "no"
+    },
+    "premium": {
+      "text": "",
+      "type": "yes"
+    }
+  },
+  {
+    "title": {
+      "text": "礼品卡",
+      "type": "subtitle"
+    },
+    "standard": {
+      "text": "",
+      "type": "no"
+    },
+    "premium": {
+      "text": "",
+      "type": "yes"
+    }
+  },
+  {
+    "title": {
+      "text": "会员积分",
+      "type": "subtitle"
+    },
+    "standard": {
+      "text": "",
+      "type": "no"
+    },
+    "premium": {
+      "text": "",
+      "type": "yes"
+    }
+  },
+  {
+    "title": {
+      "text": "会员级别",
+      "type": "subtitle"
+    },
+    "standard": {
+      "text": "",
+      "type": "no"
+    },
+    "premium": {
+      "text": "",
+      "type": "yes"
+    }
+  },
+  {
+    "title": {
+      "text": "",
+      "type": "space"
+    },
+    "standard": {
+      "text": "",
+      "type": "space"
+    },
+    "premium": {
+      "text": "",
+      "type": "space"
+    }
+  }
+]
